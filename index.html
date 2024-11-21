@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <meta name="author" content="Uriel Castañeda Sierra">
+  <meta name="description" content="Página WEB de mi glosario personal, correspondiente a la asignatura de Sistemas Operativos, ingeniería de sistemas, UNICOC">
+  <meta name="keywords" content="Glosario, Sistemas Operativos, Microprocesadores, Ingeniería, Sistemas, Unicoc">
+  <title>Glosario Sistemas Operativos</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+  <style>
+    /* Estilo general */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      background-color: #04AA6D;
+      color: white;
+      padding: 20px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header img {
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background-color: #333;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: #00ff7f; /* Color dorado para los enlaces */
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 17px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    nav a:hover, nav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      color: #04AA6D;
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+
+    section p {
+      margin-bottom: 20px;
+      line-height: 1.8;
+    }
+
+    details {
+      margin-bottom: 15px;
+    }
+
+    details summary {
+      font-weight: bold;
+      font-size: 18px;
+      color: #04AA6D;
+      cursor: pointer;
+      margin-bottom: 5px;
+    }
+
+    details article {
+      padding: 10px;
+      background-color: #f4f4f9;
+      border-left: 4px solid #04AA6D;
+      margin-left: 10px;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: #f2f2f2;
+      margin-top: 20px;
+      box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .imagen{
+      height: 150px;
+      width: auto;
+      border-radius: 25px;
+      border: 2px solid #04AA6D;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+    <img src="https://algoritmico.neocities.org/imagenes/imagen_2024-11-19_103150412-Photoroom.png" alt="Logo de Pet Gourmet" width="150" height="auto">
+    <h1>Mi glosario personal de Pensamiento algoritmico</h1>
+    <h2>Por: Nicolas Orjuela Yepes y Maria Ximena Lopez Aullon</h2> 
+</header>
+
+<main>
+  <!-- Sección de Glosario -->
+  <section id="glosario">
+    <h2>Glosario de términos</h2>
+    <p><b>A continuación encontrarás las definiciones de las principales palabras y expresiones relacionadas con pensamiento algoritmico</b></p>
+    <br>
+
+    <details>
+      <summary>Lógica</summary>
+      <article>
+        <p>
+            Capacidad de estructurar razonamientos de forma coherente y ordenada para resolver problemas. En el contexto de pensamiento algorítmico, la lógica es fundamental para identificar relaciones entre datos, formular condiciones, y garantizar que un conjunto de pasos produzca resultados esperados de manera consistente y sin ambigüedades en cualquier situación.
+            <br />
+            <br />
+            <img 
+                src="https://s1.significados.com/foto/logica-og.jpg" 
+                class="imagen"
+            />
+        </p> 
+      </article>
+    </details>
+
+    <details>
+        <summary>Secuencia</summary>
+        <article>
+          <p>
+            Conjunto de instrucciones ordenadas que se ejecutan de manera lineal dentro de un algoritmo. Cada paso depende del resultado del anterior y proporciona los datos necesarios para el siguiente. Es crucial para garantizar la continuidad del flujo lógico en la solución de problemas, evitando saltos inesperados que interrumpan el proceso.
+              <br />
+              <br />
+              <img 
+                  src="https://www.smartick.es/blog/wp-content/uploads/secuancias-de-n%C3%BAmeros-2.png" 
+                  class="imagen"
+              />
+          </p> 
+        </article>
+    </details>
+    <details>
+      <summary>Abstracción</summary>
+      <article>
+        <p>
+            Proceso de identificar los elementos esenciales de un problema eliminando detalles irrelevantes o secundarios. Ayuda a enfocarse en las características principales, reduciendo la complejidad y permitiendo diseñar soluciones más claras y generalizadas. En el pensamiento algorítmico, la abstracción es clave para modelar problemas grandes de manera comprensible.
+            <br />
+            <br />
+            <img 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrwcmn98zMDhu8wJ84ie32S88KJlkkDGo51A&s" 
+                class="imagen"
+            />
+        </p> 
+      </article>
+    </details>
+
+    <details>
+        <summary>Modularidad</summary>
+        <article>
+          <p>
+            Principio que organiza un problema o programa en unidades independientes llamadas módulos, cada una con una funcionalidad específica. Esto facilita la programación, el análisis y la depuración al permitir trabajar en partes más pequeñas y manejables. Además, mejora la reutilización de código, ya que los módulos pueden integrarse en diferentes contextos.
+              <br />
+              <br />
+              <img 
+                  src="https://img.innovaciondigital360.com/wp-content/uploads/2024/07/30203721/codeZerosaeuk5v5k1708067420406-1080x720.jpg.webp" 
+                  class="imagen"
+              />
+          </p> 
+        </article>
+    </details>
+    <details>
+      <summary>Recursión</summary>
+      <article>
+        <p>
+            Técnica donde una función o procedimiento se llama a sí mismo con un subconjunto del problema original, resolviendo iterativamente hasta llegar a un caso base que sea fácil de calcular. Es útil para problemas que pueden dividirse en subproblemas idénticos, como en algoritmos para recorrer estructuras de datos como árboles o grafos.
+            <br />
+            <br />
+            <img 
+                src="https://studyopedia.com/wp-content/uploads/2023/01/Java-Recursion.png" 
+                class="imagen"
+            />
+        </p> 
+      </article>
+    </details>
+
+    <details>
+        <summary>Iteración</summary>
+        <article>
+          <p>
+            Proceso de repetir un conjunto de instrucciones o pasos en un algoritmo hasta alcanzar un objetivo o condición definida. Cada repetición se denomina iteración, y es esencial para manejar tareas repetitivas de manera estructurada, como recorrer listas, realizar cálculos repetidos o ajustar valores hasta obtener un resultado deseado.
+              <br />
+              <br />
+              <img 
+                  src="https://cdn-icons-png.flaticon.com/512/2621/2621254.png" 
+                  class="imagen"
+              />
+          </p> 
+        </article>
+    </details>
+    <details>
+      <summary>Busqueda Binaria</summary>
+      <article>
+        <p>
+            Algoritmo eficiente que encuentra un elemento en una lista ordenada dividiéndola repetidamente en dos mitades. En cada iteración, compara el valor buscado con el elemento central, descartando la mitad donde no puede estar. Este método reduce el tiempo de búsqueda significativamente, pasando de una complejidad lineal a una logarítmica.
+            <br />
+            <br />
+            <img 
+                src="https://fineproxy.org/wp-content/uploads/2023/05/Binary-search-algorithm.jpg" 
+                class="imagen"
+            />
+        </p> 
+      </article>
+    </details>
+
+    <details>
+        <summary>Optimización</summary>
+        <article>
+          <p>
+            Proceso de ajustar un algoritmo o solución para hacerla más eficiente, reduciendo el tiempo de ejecución, el consumo de memoria o cualquier recurso crítico. Esto se logra mediante técnicas como eliminar redundancias, usar estructuras de datos más adecuadas o reestructurar el flujo del programa para alcanzar el mejor desempeño posible.
+              <br />
+              <br />
+              <img 
+                  src="https://scmlatam.com/wp-content/uploads/2023/12/productividad-laboral-y-optimizacion.jpg" 
+                  class="imagen"
+              />
+          </p> 
+        </article>
+    </details>
+    <details>
+      <summary>Prueba de Escritorio</summary>
+      <article>
+        <p>
+            Técnica en la que un programador simula manualmente la ejecución de un algoritmo paso a paso, utilizando ejemplos concretos de entrada. Se anotan los valores de las variables, las decisiones tomadas y los resultados en cada etapa. Es una herramienta valiosa para identificar errores lógicos y comprender el comportamiento de un algoritmo antes de implementarlo.
+            <br />
+            <br />
+            <img 
+                src="https://brendabalderas.wordpress.com/wp-content/uploads/2012/09/2.png" 
+                class="imagen"
+            />
+        </p> 
+      </article>
+    </details>
+
+    <details>
+        <summary>Complejidad Computacional</summary>
+        <article>
+          <p>
+            Rama de la informática que mide el rendimiento de un algoritmo evaluando el tiempo y el espacio necesarios para ejecutarlo, dependiendo del tamaño de la entrada. Clasifica los algoritmos según su eficiencia y comportamiento a medida que crece el problema, ayudando a elegir las soluciones más prácticas para cada situación.
+              <br />
+              <br />
+              <img 
+                  src="https://patriciaemiguel.com/assets/2020-09-13-ejercicios-complejidad-algoritmica.png" 
+                  class="imagen"
+              />
+          </p> 
+        </article>
+    </details>
+
+  </section>
+</main>
+
+<footer>
+   <p>&copy; Universidad de Cundinamarca | Todos los derechos reservados | 2024</p>
+</footer>
+
+</body>
+</html>
